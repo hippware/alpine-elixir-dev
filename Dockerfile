@@ -1,4 +1,4 @@
-FROM hippware/alpine-elixir:latest
+FROM hippware/alpine-elixir:1.5.1
 
 MAINTAINER Phil Toland <phil@hippware.com>
 
@@ -10,4 +10,4 @@ RUN \
       git \
       make
 
-USER default
+#USER default

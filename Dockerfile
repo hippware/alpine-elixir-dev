@@ -1,4 +1,4 @@
-FROM hippware/alpine-elixir:1.5.1
+FROM hippware/alpine-elixir:1.5.2
 
 MAINTAINER Phil Toland <phil@hippware.com>
 
@@ -13,4 +13,4 @@ RUN \
       make \
       postgresql
 
-#USER default
+CMD ["/bin/bash"]

@@ -10,6 +10,7 @@ RUN \
       expat-dev \
       g++ \
       git \
+      grep \
       make \
       postgresql
 

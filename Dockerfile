@@ -13,6 +13,7 @@ RUN \
       git \
       grep \
       make \
-      postgresql
+      postgresql \
+      vim
 
 CMD ["/bin/bash"]

@@ -1,11 +1,12 @@
-FROM hippware/alpine-elixir:1.5.2
+FROM hippware/alpine-elixir:1.5.3
 
 MAINTAINER Phil Toland <phil@hippware.com>
 
-ENV REFRESHED_AT=2017-08-23
+ENV REFRESHED_AT=2018-01-12
 
 # Install basic build dependencies
 RUN \
+    apk --no-cache --update upgrade && \
     apk --no-cache add \
       expat-dev \
       g++ \

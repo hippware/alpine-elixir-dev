@@ -13,6 +13,7 @@ RUN \
       git \
       grep \
       make \
+      openssh \
       postgresql \
       vim
 

@@ -1,4 +1,4 @@
-FROM hippware/alpine-elixir:1.9.1
+FROM hippware/alpine-elixir:1.9.4
 
 MAINTAINER Phil Toland <phil@hippware.com>
 

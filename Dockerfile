@@ -1,8 +1,8 @@
-FROM hippware/alpine-elixir:1.10.1
+FROM hippware/alpine-elixir:1.10.4
 
 MAINTAINER Phil Toland <phil@hippware.com>
 
-ENV REFRESHED_AT=2019-09-20
+ENV REFRESHED_AT=2020-07-20
 
 # Install basic build dependencies
 RUN \
